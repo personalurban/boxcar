@@ -1,4 +1,3 @@
 #!/bin/bash
 
-echo boxcar starting
-node ./index.js
+node ./index.js | ./node_modules/.bin/bunyan -o short
