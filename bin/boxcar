@@ -1,3 +1,4 @@
 #!/bin/bash
 
+echo boxcar starting
 node ./index.js
