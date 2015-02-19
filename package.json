@@ -14,12 +14,13 @@
   "repository": "git://github.com/Matt Styles/boxcar.git",
   "license": "WTFPL",
   "dependencies": {
-
+    "babel": "^4.3.0",
     "co-body": "^1.0.0",
     "co-views": "^0.3.0",
     "hogan.js": "^3.0.2",
     "koa": "^0.17.0",
     "koa-bunyan-logger": "^1.2.0",
+    "koa-json": "^1.1.1",
     "koa-mount": "^1.3.0",
     "koa-route": "^2.4.0",
     "koa-static": "^1.4.9"

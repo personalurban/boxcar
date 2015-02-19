@@ -1,5 +1,5 @@
 
-var app = require( './lib/server' );
+var app = require( './server/server' );
 var port = process.env.PORT || process.env.npm_package_config_port || 8008;
 
 app.listen( port );

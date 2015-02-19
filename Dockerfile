@@ -13,9 +13,10 @@ RUN apt-get update && \
     apt-get install -y docker.io
 
 COPY . /usr/local/boxcar
-COPY ./bin/boxcar /usr/local/bin/boxcar
 
 WORKDIR /usr/local/boxcar
+
+RUN ln -s /usr/local/boxcar/bin/boxcar /usr/local/bin/boxcar
 
 EXPOSE 8008
 
