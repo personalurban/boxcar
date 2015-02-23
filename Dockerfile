@@ -20,7 +20,7 @@ RUN ln -s /usr/local/boxcar/bin/boxcar /usr/local/bin/boxcar
 
 EXPOSE 8008
 
-CMD ["/usr/local/bin/boxcar"]
+CMD ["/usr/local/bin/boxcar start"]
 
 
 #
