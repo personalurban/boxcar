@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "./bin/boxcar start",
+    "dev": "DEBUG=true ./bin/boxcar start | ./node_modules/.bin/bunyan -o short",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "config": {
