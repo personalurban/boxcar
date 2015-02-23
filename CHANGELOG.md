@@ -3,6 +3,8 @@
 
 * _add_ cli output methods
 * _add_ cli timing methods
+* _add_ cli log specification
+* _update_ server start port arg
 
 ## 0.1.0
 
