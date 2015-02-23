@@ -15,6 +15,7 @@
   "license": "WTFPL",
   "dependencies": {
     "babel": "^4.4.5",
+    "chalk": "^1.0.0",
     "co": "^4.4.0",
     "co-body": "^1.0.0",
     "co-views": "^0.3.0",
