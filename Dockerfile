@@ -1,16 +1,5 @@
-FROM dockerfile/ubuntu
+FROM mattstyles/docker:core-stable
 
-# install iojs 1.2.0
-RUN wget https://iojs.org/dist/v1.2.0/iojs-v1.2.0-linux-x64.tar.gz && \
-    tar zxf iojs-v1.2.0-linux-x64.tar.gz && \
-    ln -s /root/iojs-v1.2.0-linux-x64/bin/* /usr/bin
-
-# CoreOS alpha uses docker 1.5
-#RUN curl -s https://get.docker.io/ubuntu/ | sh
-
-# CoreOS stable uses 1.4.1 so install a lower docker
-RUN apt-get update && \
-    apt-get install -y docker.io
 
 COPY . /usr/local/boxcar
 
@@ -20,7 +9,7 @@ RUN ln -s /usr/local/boxcar/bin/boxcar /usr/local/bin/boxcar
 
 EXPOSE 8008
 
-CMD ["/usr/local/bin/boxcar start"]
+CMD ["/usr/local/bin/boxcar", "start"]
 
 
 #
