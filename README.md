@@ -19,5 +19,15 @@ npm run start
 Or to run commands via the cli use `boxcar` directly
 
 ```
-./bin/boxcar version
+./bin/boxcar --version
+```
+
+You may have to run all commands using `sudo`.
+
+## Debugging
+
+Enable debug logs by specifying a loglevel flag
+
+```
+./bin/boxcar -l debug start
 ```
