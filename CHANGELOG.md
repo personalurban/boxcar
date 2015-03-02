@@ -1,6 +1,7 @@
 ## 0.3.0
 
 * _add_ configuration files
+* _add_ db connection
 
 ## 0.2.0
 
