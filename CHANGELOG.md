@@ -1,3 +1,6 @@
+## 0.3.0
+
+* _add_ configuration files
 
 ## 0.2.0
 
