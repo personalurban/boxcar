@@ -32,6 +32,7 @@
     "koa-static": "^1.4.9",
     "level": "^0.18.0",
     "level-sublevel": "^6.4.6",
+    "levelable": "^0.4.0",
     "lodash.merge": "^3.0.2",
     "minimist": "^1.1.0",
     "mkdirp": "^0.5.0",
