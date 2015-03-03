@@ -1,3 +1,9 @@
+## 0.4.0 _in progress_
+
+* _add_ access users
+* _add_ debug print object
+* _update_ use L for loglevel option
+
 ## 0.3.0
 
 * _add_ configuration files
